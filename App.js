@@ -2,12 +2,23 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebas
 import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "TU_API_KEY",
-    authDomain: "TU_PROYECTO.firebaseapp.com",
-    projectId: "TU_PROYECTO",
-    storageBucket: "TU_PROYECTO.appspot.com",
-    messagingSenderId: "ID",
-    appId: "APP_ID"
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyACQnoclGBn0SKwjrSlpWfZSFttgIDxu3U",
+  authDomain: "asado-92479.firebaseapp.com",
+  projectId: "asado-92479",
+  storageBucket: "asado-92479.firebasestorage.app",
+  messagingSenderId: "614923179620",
+  appId: "1:614923179620:web:8ba9927a64ed6483adf171"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 };
 
 const app = initializeApp(firebaseConfig);
